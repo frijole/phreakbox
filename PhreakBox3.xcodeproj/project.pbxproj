@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C0E9472181EC4C800902945 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0E9471181EC4C800902945 /* AudioToolbox.framework */; };
 		3C91736E181E8C55002F4279 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C91736D181E8C55002F4279 /* Foundation.framework */; };
 		3C917370181E8C55002F4279 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C91736F181E8C55002F4279 /* CoreGraphics.framework */; };
 		3C917372181E8C55002F4279 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C917371181E8C55002F4279 /* UIKit.framework */; };
@@ -72,6 +73,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C0E9471181EC4C800902945 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		3C91736A181E8C55002F4279 /* PhreakBox3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhreakBox3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C91736D181E8C55002F4279 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3C91736F181E8C55002F4279 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -140,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C0E9472181EC4C800902945 /* AudioToolbox.framework in Frameworks */,
 				3C917370181E8C55002F4279 /* CoreGraphics.framework in Frameworks */,
 				3C917372181E8C55002F4279 /* UIKit.framework in Frameworks */,
 				3C91736E181E8C55002F4279 /* Foundation.framework in Frameworks */,
@@ -181,6 +184,7 @@
 		3C91736C181E8C55002F4279 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3C0E9471181EC4C800902945 /* AudioToolbox.framework */,
 				3C91736D181E8C55002F4279 /* Foundation.framework */,
 				3C91736F181E8C55002F4279 /* CoreGraphics.framework */,
 				3C917371181E8C55002F4279 /* UIKit.framework */,
@@ -666,6 +670,7 @@
 				3C9173A1181E8C55002F4279 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C9173A2181E8C55002F4279 /* Build configuration list for PBXNativeTarget "PhreakBox3Tests" */ = {
 			isa = XCConfigurationList;
@@ -674,6 +679,7 @@
 				3C9173A4181E8C55002F4279 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

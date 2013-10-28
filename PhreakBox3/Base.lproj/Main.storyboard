@@ -38,7 +38,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="cButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="2aX-XU-Ezy"/>
+                                            <action selector="cButtonPressed:" destination="CZ4-MO-1fc" eventType="touchDown" id="2aX-XU-Ezy"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhd-Hp-Qju">
@@ -59,7 +59,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="poundButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="lPg-KA-tVz"/>
+                                            <action selector="poundButtonPressed:" destination="CZ4-MO-1fc" eventType="touchDown" id="lPg-KA-tVz"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K0g-X5-ayD">
@@ -80,7 +80,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="fiveButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="hYs-ol-cSm"/>
+                                            <action selector="fiveButtonPressed:" destination="CZ4-MO-1fc" eventType="touchDown" id="hYs-ol-cSm"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zrK-QB-Gh0">
@@ -101,7 +101,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="twoButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="bXi-to-88s"/>
+                                            <action selector="twoButtonPressed:" destination="CZ4-MO-1fc" eventType="touchDown" id="bXi-to-88s"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sgq-Hm-lZo">
@@ -122,7 +122,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="sevenButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="6xy-iD-WjY"/>
+                                            <action selector="sevenButtonPressed:" destination="CZ4-MO-1fc" eventType="touchDown" id="6xy-iD-WjY"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fd0-Xa-1Wc">
@@ -143,7 +143,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="aButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="gCx-QE-1c7"/>
+                                            <action selector="aButtonPressed:" destination="CZ4-MO-1fc" eventType="touchDown" id="gCx-QE-1c7"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a6d-Mh-mmS">
@@ -164,7 +164,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="threeButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="UHu-Qn-BMS"/>
+                                            <action selector="threeButtonPressed:" destination="CZ4-MO-1fc" eventType="touchDown" id="UHu-Qn-BMS"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GWZ-Mr-sB5">
@@ -185,7 +185,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="eightButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="59k-Wk-3Eb"/>
+                                            <action selector="eightButtonPressed:" destination="CZ4-MO-1fc" eventType="touchDown" id="59k-Wk-3Eb"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HGs-9A-5ua">
@@ -206,7 +206,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="sixButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="ucl-6E-RPM"/>
+                                            <action selector="sixButtonPressed:" destination="CZ4-MO-1fc" eventType="touchDown" id="ucl-6E-RPM"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AA2-fC-2gs">
@@ -227,7 +227,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="oneButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="VyS-cb-H0k"/>
+                                            <action selector="oneButtonPressed:" destination="CZ4-MO-1fc" eventType="touchDown" id="L6S-XN-jpX"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VTk-Lz-5oa">
@@ -248,7 +248,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="zeroButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="wYd-Nl-qs7"/>
+                                            <action selector="zeroButtonPressed:" destination="CZ4-MO-1fc" eventType="touchDown" id="wYd-Nl-qs7"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kXl-7z-eqU">
@@ -269,7 +269,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="fourButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="82z-Pz-t7C"/>
+                                            <action selector="fourButtonPressed:" destination="CZ4-MO-1fc" eventType="touchDown" id="82z-Pz-t7C"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1U-c8-A6g">
@@ -290,7 +290,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="bButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="Bez-6V-jZX"/>
+                                            <action selector="bButtonPressed:" destination="CZ4-MO-1fc" eventType="touchDown" id="Bez-6V-jZX"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BCm-Jy-rMH">
@@ -311,7 +311,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="dButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="b7r-FQ-7yK"/>
+                                            <action selector="dButtonPressed:" destination="CZ4-MO-1fc" eventType="touchDown" id="b7r-FQ-7yK"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lek-7j-ent">
@@ -332,7 +332,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="starButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="Vbo-ii-MFM"/>
+                                            <action selector="starButtonPressed:" destination="CZ4-MO-1fc" eventType="touchDown" id="Vbo-ii-MFM"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mkc-UB-cJI">
@@ -353,7 +353,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="nineButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="q8m-qj-h2d"/>
+                                            <action selector="nineButtonPressed:" destination="CZ4-MO-1fc" eventType="touchDown" id="q8m-qj-h2d"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -424,7 +424,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="ringbackButtonPressed:" destination="QUy-BD-bpt" eventType="touchUpInside" id="xkJ-Hy-its"/>
+                                            <action selector="ringbackButtonPressed:" destination="QUy-BD-bpt" eventType="touchDown" id="xkJ-Hy-its"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y3O-Ps-drf">
@@ -445,7 +445,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="collectButtonPressed:" destination="QUy-BD-bpt" eventType="touchUpInside" id="xzZ-Ox-enS"/>
+                                            <action selector="collectButtonPressed:" destination="QUy-BD-bpt" eventType="touchDown" id="xzZ-Ox-enS"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n6E-Gg-124">
@@ -466,7 +466,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="returnButtonPressed:" destination="QUy-BD-bpt" eventType="touchUpInside" id="uoe-44-ftc"/>
+                                            <action selector="returnButtonPressed:" destination="QUy-BD-bpt" eventType="touchDown" id="uoe-44-ftc"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -560,7 +560,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="cButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="Eeb-ao-yue"/>
+                                            <action selector="cButtonPressed:" destination="XQo-sA-64V" eventType="touchDown" id="Eeb-ao-yue"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZF5-pd-ihX">
@@ -581,7 +581,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="poundButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="BOf-dg-g6Y"/>
+                                            <action selector="poundButtonPressed:" destination="XQo-sA-64V" eventType="touchDown" id="BOf-dg-g6Y"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W1V-ih-c0h">
@@ -602,7 +602,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="fiveButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="JwM-vE-i7I"/>
+                                            <action selector="fiveButtonPressed:" destination="XQo-sA-64V" eventType="touchDown" id="JwM-vE-i7I"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OqW-av-GsZ">
@@ -623,7 +623,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="twoButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="a8Z-AB-qhx"/>
+                                            <action selector="twoButtonPressed:" destination="XQo-sA-64V" eventType="touchDown" id="a8Z-AB-qhx"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgX-5h-UBO">
@@ -644,7 +644,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="sevenButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="kJG-wc-Ai6"/>
+                                            <action selector="sevenButtonPressed:" destination="XQo-sA-64V" eventType="touchDown" id="kJG-wc-Ai6"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pf4-Vm-zbU">
@@ -665,7 +665,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="aButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="Mu5-IX-e6g"/>
+                                            <action selector="aButtonPressed:" destination="XQo-sA-64V" eventType="touchDown" id="Mu5-IX-e6g"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iph-YS-uDo">
@@ -686,7 +686,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="threeButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="tar-MH-zsc"/>
+                                            <action selector="threeButtonPressed:" destination="XQo-sA-64V" eventType="touchDown" id="tar-MH-zsc"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pw5-rN-8YO">
@@ -707,7 +707,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="eightButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="PMr-zJ-4KJ"/>
+                                            <action selector="eightButtonPressed:" destination="XQo-sA-64V" eventType="touchDown" id="PMr-zJ-4KJ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k7A-dd-DRt">
@@ -728,7 +728,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="sixButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="VgU-5I-mJy"/>
+                                            <action selector="sixButtonPressed:" destination="XQo-sA-64V" eventType="touchDown" id="VgU-5I-mJy"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FZ7-CF-hZx">
@@ -749,7 +749,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="oneButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="n4s-zL-JW8"/>
+                                            <action selector="oneButtonPressed:" destination="XQo-sA-64V" eventType="touchDown" id="n4s-zL-JW8"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CK7-wm-5ky">
@@ -770,7 +770,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="zeroButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="zIz-w9-qOf"/>
+                                            <action selector="zeroButtonPressed:" destination="XQo-sA-64V" eventType="touchDown" id="zIz-w9-qOf"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ueq-A4-Lxl">
@@ -791,7 +791,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="fourButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="rTn-ZB-ovm"/>
+                                            <action selector="fourButtonPressed:" destination="XQo-sA-64V" eventType="touchDown" id="rTn-ZB-ovm"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tmR-nK-ak5">
@@ -812,7 +812,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="bButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="8Hq-Do-iIv"/>
+                                            <action selector="bButtonPressed:" destination="XQo-sA-64V" eventType="touchDown" id="8Hq-Do-iIv"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o5H-47-U5N">
@@ -833,7 +833,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="dButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="Dzx-MR-8Ub"/>
+                                            <action selector="dButtonPressed:" destination="XQo-sA-64V" eventType="touchDown" id="Dzx-MR-8Ub"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="skU-hs-gSX">
@@ -854,7 +854,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="starButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="jyO-dQ-GhZ"/>
+                                            <action selector="starButtonPressed:" destination="XQo-sA-64V" eventType="touchDown" id="jyO-dQ-GhZ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="csb-Jf-Kad">
@@ -875,7 +875,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="nineButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="skC-jB-708"/>
+                                            <action selector="nineButtonPressed:" destination="XQo-sA-64V" eventType="touchDown" id="skC-jB-708"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -947,7 +947,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="quarterButtonPressed:" destination="49F-5o-Hur" eventType="touchUpInside" id="HTZ-F6-VXW"/>
+                                            <action selector="quarterButtonPressed:" destination="49F-5o-Hur" eventType="touchDown" id="HTZ-F6-VXW"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qc3-n9-AIL">
@@ -968,7 +968,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="nickelButtonPressed:" destination="49F-5o-Hur" eventType="touchUpInside" id="mlE-8w-FbJ"/>
+                                            <action selector="nickelButtonPressed:" destination="49F-5o-Hur" eventType="touchDown" id="mlE-8w-FbJ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wO9-TR-7QQ">
@@ -989,7 +989,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="dimeButtonPressed:" destination="49F-5o-Hur" eventType="touchUpInside" id="dIh-mR-6R3"/>
+                                            <action selector="dimeButtonPressed:" destination="49F-5o-Hur" eventType="touchDown" id="dIh-mR-6R3"/>
                                         </connections>
                                     </button>
                                 </subviews>

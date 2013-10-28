@@ -30,17 +30,17 @@
 
 - (IBAction)nickelButtonPressed:(id)sender
 {
-    
+    [self playSound:@"rb-nickel"];
 }
 
 - (IBAction)dimeButtonPressed:(id)sender
 {
-    
+    [self playSound:@"rb-dime"];
 }
 
 - (IBAction)quarterButtonPressed:(id)sender
 {
-    
+    [self playSound:@"rb-quarter"];
 }
 
 

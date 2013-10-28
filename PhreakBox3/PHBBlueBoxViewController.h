@@ -14,6 +14,8 @@
 
 @property (nonatomic, weak) IBOutlet UIView *buttonContainer;
 
+- (void)playSound:(NSString *)filename;
+
 @end
 
 

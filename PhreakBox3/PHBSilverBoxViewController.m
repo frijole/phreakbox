@@ -30,83 +30,82 @@
 
 - (IBAction)oneButtonPressed:(id)sender
 {
-    
+    [self playSound:@"silver-1"];
 }
 
 - (IBAction)twoButtonPressed:(id)sender
 {
-    
+    [self playSound:@"silver-2"];
 }
 
 - (IBAction)threeButtonPressed:(id)sender
 {
-    
+    [self playSound:@"silver-3"];
 }
 
 - (IBAction)fourButtonPressed:(id)sender
 {
-    
+    [self playSound:@"silver-4"];
 }
 
 - (IBAction)fiveButtonPressed:(id)sender
 {
-    
+    [self playSound:@"silver-5"];
 }
 
 - (IBAction)sixButtonPressed:(id)sender
 {
-    
+    [self playSound:@"silver-6"];
 }
 
 - (IBAction)sevenButtonPressed:(id)sender
 {
-    
+    [self playSound:@"silver-7"];
 }
 
 - (IBAction)eightButtonPressed:(id)sender
 {
-    
+    [self playSound:@"silver-8"];
 }
 
 - (IBAction)nineButtonPressed:(id)sender
 {
-    
+    [self playSound:@"silver-9"];
 }
 
 - (IBAction)zeroButtonPressed:(id)sender
 {
-    
+    [self playSound:@"silver-0"];
 }
 
 - (IBAction)starButtonPressed:(id)sender
 {
-    
+    [self playSound:@"silver-star"];
 }
 
 - (IBAction)poundButtonPressed:(id)sender
 {
-    
+    [self playSound:@"silver-pound"];
 }
 
 - (IBAction)aButtonPressed:(id)sender
 {
-    
+     [self playSound:@"silver-a"];
 }
 
 - (IBAction)bButtonPressed:(id)sender
 {
-    
+     [self playSound:@"silver-b"];
 }
 
 - (IBAction)cButtonPressed:(id)sender
 {
-    
+     [self playSound:@"silver-c"];
 }
 
 - (IBAction)dButtonPressed:(id)sender
 {
-    
+     [self playSound:@"silver-d"];
 }
-
 
 @end

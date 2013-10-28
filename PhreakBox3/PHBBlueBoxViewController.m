@@ -8,6 +8,14 @@
 
 #import "PHBBlueBoxViewController.h"
 
+#import <AudioToolbox/AudioToolbox.h>
+
+static NSMutableDictionary *_soundIDCache = nil;
+
+@interface PHBBoxViewController ()
+- (NSMutableDictionary *)soundIDCache;
+@end
+
 @implementation PHBBoxViewController
 
 - (void)viewDidLoad
@@ -32,6 +40,33 @@
 - (UIStatusBarStyle)preferredStatusBarStyle
 {
     return UIStatusBarStyleLightContent;
+}
+
+- (void)playSound:(NSString *)filename
+{
+    NSURL *toneURLRef = [[NSBundle mainBundle] URLForResource:filename withExtension:@"aif"];
+    SystemSoundID toneSSID = 0;
+    
+    NSNumber *tmpToneSSID = [[self soundIDCache] objectForKey:filename];
+    if ( tmpToneSSID )
+    {
+        toneSSID = tmpToneSSID.intValue;
+    }
+    else
+    {
+        AudioServicesCreateSystemSoundID( (__bridge CFURLRef)toneURLRef, &toneSSID );
+        [[self soundIDCache] setObject:@(toneSSID) forKey:filename];
+    }
+    
+    AudioServicesPlaySystemSound(toneSSID);
+}
+
+- (NSMutableDictionary *)soundIDCache
+{
+    if ( !_soundIDCache )
+        _soundIDCache = [NSMutableDictionary dictionary];
+    
+    return _soundIDCache;
 }
 
 @end
@@ -59,82 +94,82 @@
 
 - (IBAction)oneButtonPressed:(id)sender
 {
-    
+    [self playSound:@"blue-1"];
 }
 
 - (IBAction)twoButtonPressed:(id)sender
 {
-    
+    [self playSound:@"blue-2"];
 }
 
 - (IBAction)threeButtonPressed:(id)sender
 {
-    
+    [self playSound:@"blue-3"];
 }
 
 - (IBAction)fourButtonPressed:(id)sender
 {
-    
+    [self playSound:@"blue-4"];
 }
 
 - (IBAction)fiveButtonPressed:(id)sender
 {
-    
+    [self playSound:@"blue-5"];
 }
 
 - (IBAction)sixButtonPressed:(id)sender
 {
-    
+     [self playSound:@"blue-6"];
 }
 
 - (IBAction)sevenButtonPressed:(id)sender
 {
-    
+     [self playSound:@"blue-7"];
 }
 
 - (IBAction)eightButtonPressed:(id)sender
 {
-    
+     [self playSound:@"blue-8"];
 }
 
 - (IBAction)nineButtonPressed:(id)sender
 {
-    
+     [self playSound:@"blue-9"];
 }
 
 - (IBAction)zeroButtonPressed:(id)sender
 {
-    
+     [self playSound:@"blue-0"];
 }
 
 - (IBAction)starButtonPressed:(id)sender
 {
-    
+     [self playSound:@"blue-star"];
 }
 
 - (IBAction)poundButtonPressed:(id)sender
 {
-    
+     [self playSound:@"blue-pound"];
 }
 
 - (IBAction)aButtonPressed:(id)sender
 {
-    
+//     [self playSound:@"blue-1"];
 }
 
 - (IBAction)bButtonPressed:(id)sender
 {
-    
+//     [self playSound:@"blue-1"];
 }
 
 - (IBAction)cButtonPressed:(id)sender
 {
-    
+//     [self playSound:@"blue-1"];
 }
 
 - (IBAction)dButtonPressed:(id)sender
 {
-    
+//     [self playSound:@"blue-1"];   
 }
 
 

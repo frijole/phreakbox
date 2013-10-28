@@ -30,17 +30,17 @@
 
 - (IBAction)collectButtonPressed:(id)sender
 {
-    
+    [self playSound:@"gb-collect"];
 }
 
 - (IBAction)returnButtonPressed:(id)sender
 {
-    
+    [self playSound:@"gb-return"];
 }
 
 - (IBAction)ringbackButtonPressed:(id)sender
 {
-    
+    [self playSound:@"gb-ringback"];
 }
 
 
