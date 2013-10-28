@@ -1,18 +1,18 @@
 //
-//  PHBFirstViewController.m
+//  PHBGreenBoxViewController.m
 //  PhreakBox3
 //
 //  Created by Ian Meyer on 10/28/13.
 //  Copyright (c) 2013 Ian Meyer. All rights reserved.
 //
 
-#import "PHBFirstViewController.h"
+#import "PHBGreenBoxViewController.h"
 
-@interface PHBFirstViewController ()
+@interface PHBGreenBoxViewController ()
 
 @end
 
-@implementation PHBFirstViewController
+@implementation PHBGreenBoxViewController
 
 - (void)viewDidLoad
 {

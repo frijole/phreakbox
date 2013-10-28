@@ -14,14 +14,17 @@
 		3C91737A181E8C55002F4279 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C917379181E8C55002F4279 /* main.m */; };
 		3C91737E181E8C55002F4279 /* PHBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C91737D181E8C55002F4279 /* PHBAppDelegate.m */; };
 		3C917381181E8C55002F4279 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C91737F181E8C55002F4279 /* Main.storyboard */; };
-		3C917384181E8C55002F4279 /* PHBFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C917383181E8C55002F4279 /* PHBFirstViewController.m */; };
-		3C917387181E8C55002F4279 /* PHBSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C917386181E8C55002F4279 /* PHBSecondViewController.m */; };
+		3C917384181E8C55002F4279 /* PHBBlueBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C917383181E8C55002F4279 /* PHBBlueBoxViewController.m */; };
+		3C917387181E8C55002F4279 /* PHBRedBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C917386181E8C55002F4279 /* PHBRedBoxViewController.m */; };
 		3C917389181E8C55002F4279 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C917388181E8C55002F4279 /* Images.xcassets */; };
 		3C917390181E8C55002F4279 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C91738F181E8C55002F4279 /* XCTest.framework */; };
 		3C917391181E8C55002F4279 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C91736D181E8C55002F4279 /* Foundation.framework */; };
 		3C917392181E8C55002F4279 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C917371181E8C55002F4279 /* UIKit.framework */; };
 		3C91739A181E8C55002F4279 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C917398181E8C55002F4279 /* InfoPlist.strings */; };
 		3C91739C181E8C55002F4279 /* PhreakBox3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C91739B181E8C55002F4279 /* PhreakBox3Tests.m */; };
+		3C9173A7181E8D2A002F4279 /* PHBGreenBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9173A6181E8D2A002F4279 /* PHBGreenBoxViewController.m */; };
+		3C9173AA181E8D40002F4279 /* PHBSilverBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9173A9181E8D40002F4279 /* PHBSilverBoxViewController.m */; };
+		3C9173AD181E93F6002F4279 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9173AC181E93F6002F4279 /* UIImage+Color.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,16 +49,22 @@
 		3C91737C181E8C55002F4279 /* PHBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHBAppDelegate.h; sourceTree = "<group>"; };
 		3C91737D181E8C55002F4279 /* PHBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHBAppDelegate.m; sourceTree = "<group>"; };
 		3C917380181E8C55002F4279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3C917382181E8C55002F4279 /* PHBFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHBFirstViewController.h; sourceTree = "<group>"; };
-		3C917383181E8C55002F4279 /* PHBFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHBFirstViewController.m; sourceTree = "<group>"; };
-		3C917385181E8C55002F4279 /* PHBSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHBSecondViewController.h; sourceTree = "<group>"; };
-		3C917386181E8C55002F4279 /* PHBSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHBSecondViewController.m; sourceTree = "<group>"; };
+		3C917382181E8C55002F4279 /* PHBBlueBoxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHBBlueBoxViewController.h; sourceTree = "<group>"; };
+		3C917383181E8C55002F4279 /* PHBBlueBoxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHBBlueBoxViewController.m; sourceTree = "<group>"; };
+		3C917385181E8C55002F4279 /* PHBRedBoxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHBRedBoxViewController.h; sourceTree = "<group>"; };
+		3C917386181E8C55002F4279 /* PHBRedBoxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHBRedBoxViewController.m; sourceTree = "<group>"; };
 		3C917388181E8C55002F4279 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3C91738E181E8C55002F4279 /* PhreakBox3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhreakBox3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C91738F181E8C55002F4279 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3C917397181E8C55002F4279 /* PhreakBox3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhreakBox3Tests-Info.plist"; sourceTree = "<group>"; };
 		3C917399181E8C55002F4279 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C91739B181E8C55002F4279 /* PhreakBox3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhreakBox3Tests.m; sourceTree = "<group>"; };
+		3C9173A5181E8D2A002F4279 /* PHBGreenBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHBGreenBoxViewController.h; sourceTree = "<group>"; };
+		3C9173A6181E8D2A002F4279 /* PHBGreenBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHBGreenBoxViewController.m; sourceTree = "<group>"; };
+		3C9173A8181E8D40002F4279 /* PHBSilverBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHBSilverBoxViewController.h; sourceTree = "<group>"; };
+		3C9173A9181E8D40002F4279 /* PHBSilverBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHBSilverBoxViewController.m; sourceTree = "<group>"; };
+		3C9173AB181E93F6002F4279 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		3C9173AC181E93F6002F4279 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +127,16 @@
 				3C91737C181E8C55002F4279 /* PHBAppDelegate.h */,
 				3C91737D181E8C55002F4279 /* PHBAppDelegate.m */,
 				3C91737F181E8C55002F4279 /* Main.storyboard */,
-				3C917382181E8C55002F4279 /* PHBFirstViewController.h */,
-				3C917383181E8C55002F4279 /* PHBFirstViewController.m */,
-				3C917385181E8C55002F4279 /* PHBSecondViewController.h */,
-				3C917386181E8C55002F4279 /* PHBSecondViewController.m */,
+				3C917382181E8C55002F4279 /* PHBBlueBoxViewController.h */,
+				3C917383181E8C55002F4279 /* PHBBlueBoxViewController.m */,
+				3C917385181E8C55002F4279 /* PHBRedBoxViewController.h */,
+				3C917386181E8C55002F4279 /* PHBRedBoxViewController.m */,
+				3C9173A5181E8D2A002F4279 /* PHBGreenBoxViewController.h */,
+				3C9173A6181E8D2A002F4279 /* PHBGreenBoxViewController.m */,
+				3C9173A8181E8D40002F4279 /* PHBSilverBoxViewController.h */,
+				3C9173A9181E8D40002F4279 /* PHBSilverBoxViewController.m */,
+				3C9173AB181E93F6002F4279 /* UIImage+Color.h */,
+				3C9173AC181E93F6002F4279 /* UIImage+Color.m */,
 				3C917388181E8C55002F4279 /* Images.xcassets */,
 				3C917374181E8C55002F4279 /* Supporting Files */,
 			);
@@ -205,6 +220,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Ian Meyer";
 				TargetAttributes = {
+					3C917369181E8C55002F4279 = {
+						DevelopmentTeam = W27P2Y376L;
+					};
 					3C91738D181E8C55002F4279 = {
 						TestTargetID = 3C917369181E8C55002F4279;
 					};
@@ -255,9 +273,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C917384181E8C55002F4279 /* PHBFirstViewController.m in Sources */,
-				3C917387181E8C55002F4279 /* PHBSecondViewController.m in Sources */,
+				3C917384181E8C55002F4279 /* PHBBlueBoxViewController.m in Sources */,
+				3C917387181E8C55002F4279 /* PHBRedBoxViewController.m in Sources */,
+				3C9173AD181E93F6002F4279 /* UIImage+Color.m in Sources */,
+				3C9173AA181E8D40002F4279 /* PHBSilverBoxViewController.m in Sources */,
 				3C91737A181E8C55002F4279 /* main.m in Sources */,
+				3C9173A7181E8D2A002F4279 /* PHBGreenBoxViewController.m in Sources */,
 				3C91737E181E8C55002F4279 /* PHBAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,6 +406,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhreakBox3/PhreakBox3-Prefix.pch";
 				INFOPLIST_FILE = "PhreakBox3/PhreakBox3-Info.plist";
@@ -398,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhreakBox3/PhreakBox3-Prefix.pch";
 				INFOPLIST_FILE = "PhreakBox3/PhreakBox3-Info.plist";

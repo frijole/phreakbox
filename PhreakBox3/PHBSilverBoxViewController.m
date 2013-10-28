@@ -1,18 +1,18 @@
 //
-//  PHBSecondViewController.m
+//  PHBSilverBoxViewController.m
 //  PhreakBox3
 //
 //  Created by Ian Meyer on 10/28/13.
 //  Copyright (c) 2013 Ian Meyer. All rights reserved.
 //
 
-#import "PHBSecondViewController.h"
+#import "PHBSilverBoxViewController.h"
 
-@interface PHBSecondViewController ()
+@interface PHBSilverBoxViewController ()
 
 @end
 
-@implementation PHBSecondViewController
+@implementation PHBSilverBoxViewController
 
 - (void)viewDidLoad
 {
