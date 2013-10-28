@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C91736E181E8C55002F4279 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C91736D181E8C55002F4279 /* Foundation.framework */; };
+		3C917370181E8C55002F4279 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C91736F181E8C55002F4279 /* CoreGraphics.framework */; };
+		3C917372181E8C55002F4279 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C917371181E8C55002F4279 /* UIKit.framework */; };
+		3C917378181E8C55002F4279 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C917376181E8C55002F4279 /* InfoPlist.strings */; };
+		3C91737A181E8C55002F4279 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C917379181E8C55002F4279 /* main.m */; };
+		3C91737E181E8C55002F4279 /* PHBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C91737D181E8C55002F4279 /* PHBAppDelegate.m */; };
+		3C917381181E8C55002F4279 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C91737F181E8C55002F4279 /* Main.storyboard */; };
+		3C917384181E8C55002F4279 /* PHBFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C917383181E8C55002F4279 /* PHBFirstViewController.m */; };
+		3C917387181E8C55002F4279 /* PHBSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C917386181E8C55002F4279 /* PHBSecondViewController.m */; };
+		3C917389181E8C55002F4279 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C917388181E8C55002F4279 /* Images.xcassets */; };
+		3C917390181E8C55002F4279 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C91738F181E8C55002F4279 /* XCTest.framework */; };
+		3C917391181E8C55002F4279 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C91736D181E8C55002F4279 /* Foundation.framework */; };
+		3C917392181E8C55002F4279 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C917371181E8C55002F4279 /* UIKit.framework */; };
+		3C91739A181E8C55002F4279 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C917398181E8C55002F4279 /* InfoPlist.strings */; };
+		3C91739C181E8C55002F4279 /* PhreakBox3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C91739B181E8C55002F4279 /* PhreakBox3Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C917393181E8C55002F4279 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C917362181E8C55002F4279 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C917369181E8C55002F4279;
+			remoteInfo = PhreakBox3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C91736A181E8C55002F4279 /* PhreakBox3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhreakBox3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C91736D181E8C55002F4279 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3C91736F181E8C55002F4279 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3C917371181E8C55002F4279 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3C917375181E8C55002F4279 /* PhreakBox3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhreakBox3-Info.plist"; sourceTree = "<group>"; };
+		3C917377181E8C55002F4279 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C917379181E8C55002F4279 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C91737B181E8C55002F4279 /* PhreakBox3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhreakBox3-Prefix.pch"; sourceTree = "<group>"; };
+		3C91737C181E8C55002F4279 /* PHBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHBAppDelegate.h; sourceTree = "<group>"; };
+		3C91737D181E8C55002F4279 /* PHBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHBAppDelegate.m; sourceTree = "<group>"; };
+		3C917380181E8C55002F4279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C917382181E8C55002F4279 /* PHBFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHBFirstViewController.h; sourceTree = "<group>"; };
+		3C917383181E8C55002F4279 /* PHBFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHBFirstViewController.m; sourceTree = "<group>"; };
+		3C917385181E8C55002F4279 /* PHBSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHBSecondViewController.h; sourceTree = "<group>"; };
+		3C917386181E8C55002F4279 /* PHBSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHBSecondViewController.m; sourceTree = "<group>"; };
+		3C917388181E8C55002F4279 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3C91738E181E8C55002F4279 /* PhreakBox3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhreakBox3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C91738F181E8C55002F4279 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3C917397181E8C55002F4279 /* PhreakBox3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhreakBox3Tests-Info.plist"; sourceTree = "<group>"; };
+		3C917399181E8C55002F4279 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C91739B181E8C55002F4279 /* PhreakBox3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhreakBox3Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C917367181E8C55002F4279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C917370181E8C55002F4279 /* CoreGraphics.framework in Frameworks */,
+				3C917372181E8C55002F4279 /* UIKit.framework in Frameworks */,
+				3C91736E181E8C55002F4279 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C91738B181E8C55002F4279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C917390181E8C55002F4279 /* XCTest.framework in Frameworks */,
+				3C917392181E8C55002F4279 /* UIKit.framework in Frameworks */,
+				3C917391181E8C55002F4279 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C917361181E8C55002F4279 = {
+			isa = PBXGroup;
+			children = (
+				3C917373181E8C55002F4279 /* PhreakBox3 */,
+				3C917395181E8C55002F4279 /* PhreakBox3Tests */,
+				3C91736C181E8C55002F4279 /* Frameworks */,
+				3C91736B181E8C55002F4279 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C91736B181E8C55002F4279 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C91736A181E8C55002F4279 /* PhreakBox3.app */,
+				3C91738E181E8C55002F4279 /* PhreakBox3Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C91736C181E8C55002F4279 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C91736D181E8C55002F4279 /* Foundation.framework */,
+				3C91736F181E8C55002F4279 /* CoreGraphics.framework */,
+				3C917371181E8C55002F4279 /* UIKit.framework */,
+				3C91738F181E8C55002F4279 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C917373181E8C55002F4279 /* PhreakBox3 */ = {
+			isa = PBXGroup;
+			children = (
+				3C91737C181E8C55002F4279 /* PHBAppDelegate.h */,
+				3C91737D181E8C55002F4279 /* PHBAppDelegate.m */,
+				3C91737F181E8C55002F4279 /* Main.storyboard */,
+				3C917382181E8C55002F4279 /* PHBFirstViewController.h */,
+				3C917383181E8C55002F4279 /* PHBFirstViewController.m */,
+				3C917385181E8C55002F4279 /* PHBSecondViewController.h */,
+				3C917386181E8C55002F4279 /* PHBSecondViewController.m */,
+				3C917388181E8C55002F4279 /* Images.xcassets */,
+				3C917374181E8C55002F4279 /* Supporting Files */,
+			);
+			path = PhreakBox3;
+			sourceTree = "<group>";
+		};
+		3C917374181E8C55002F4279 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C917375181E8C55002F4279 /* PhreakBox3-Info.plist */,
+				3C917376181E8C55002F4279 /* InfoPlist.strings */,
+				3C917379181E8C55002F4279 /* main.m */,
+				3C91737B181E8C55002F4279 /* PhreakBox3-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C917395181E8C55002F4279 /* PhreakBox3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3C91739B181E8C55002F4279 /* PhreakBox3Tests.m */,
+				3C917396181E8C55002F4279 /* Supporting Files */,
+			);
+			path = PhreakBox3Tests;
+			sourceTree = "<group>";
+		};
+		3C917396181E8C55002F4279 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C917397181E8C55002F4279 /* PhreakBox3Tests-Info.plist */,
+				3C917398181E8C55002F4279 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C917369181E8C55002F4279 /* PhreakBox3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C91739F181E8C55002F4279 /* Build configuration list for PBXNativeTarget "PhreakBox3" */;
+			buildPhases = (
+				3C917366181E8C55002F4279 /* Sources */,
+				3C917367181E8C55002F4279 /* Frameworks */,
+				3C917368181E8C55002F4279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhreakBox3;
+			productName = PhreakBox3;
+			productReference = 3C91736A181E8C55002F4279 /* PhreakBox3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C91738D181E8C55002F4279 /* PhreakBox3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9173A2181E8C55002F4279 /* Build configuration list for PBXNativeTarget "PhreakBox3Tests" */;
+			buildPhases = (
+				3C91738A181E8C55002F4279 /* Sources */,
+				3C91738B181E8C55002F4279 /* Frameworks */,
+				3C91738C181E8C55002F4279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C917394181E8C55002F4279 /* PBXTargetDependency */,
+			);
+			name = PhreakBox3Tests;
+			productName = PhreakBox3Tests;
+			productReference = 3C91738E181E8C55002F4279 /* PhreakBox3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C917362181E8C55002F4279 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PHB;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Ian Meyer";
+				TargetAttributes = {
+					3C91738D181E8C55002F4279 = {
+						TestTargetID = 3C917369181E8C55002F4279;
+					};
+				};
+			};
+			buildConfigurationList = 3C917365181E8C55002F4279 /* Build configuration list for PBXProject "PhreakBox3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C917361181E8C55002F4279;
+			productRefGroup = 3C91736B181E8C55002F4279 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C917369181E8C55002F4279 /* PhreakBox3 */,
+				3C91738D181E8C55002F4279 /* PhreakBox3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C917368181E8C55002F4279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C917389181E8C55002F4279 /* Images.xcassets in Resources */,
+				3C917378181E8C55002F4279 /* InfoPlist.strings in Resources */,
+				3C917381181E8C55002F4279 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C91738C181E8C55002F4279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C91739A181E8C55002F4279 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C917366181E8C55002F4279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C917384181E8C55002F4279 /* PHBFirstViewController.m in Sources */,
+				3C917387181E8C55002F4279 /* PHBSecondViewController.m in Sources */,
+				3C91737A181E8C55002F4279 /* main.m in Sources */,
+				3C91737E181E8C55002F4279 /* PHBAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C91738A181E8C55002F4279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C91739C181E8C55002F4279 /* PhreakBox3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C917394181E8C55002F4279 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C917369181E8C55002F4279 /* PhreakBox3 */;
+			targetProxy = 3C917393181E8C55002F4279 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C917376181E8C55002F4279 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C917377181E8C55002F4279 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3C91737F181E8C55002F4279 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C917380181E8C55002F4279 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C917398181E8C55002F4279 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C917399181E8C55002F4279 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C91739D181E8C55002F4279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C91739E181E8C55002F4279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C9173A0181E8C55002F4279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhreakBox3/PhreakBox3-Prefix.pch";
+				INFOPLIST_FILE = "PhreakBox3/PhreakBox3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3C9173A1181E8C55002F4279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhreakBox3/PhreakBox3-Prefix.pch";
+				INFOPLIST_FILE = "PhreakBox3/PhreakBox3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3C9173A3181E8C55002F4279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhreakBox3.app/PhreakBox3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhreakBox3/PhreakBox3-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PhreakBox3Tests/PhreakBox3Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3C9173A4181E8C55002F4279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhreakBox3.app/PhreakBox3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhreakBox3/PhreakBox3-Prefix.pch";
+				INFOPLIST_FILE = "PhreakBox3Tests/PhreakBox3Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C917365181E8C55002F4279 /* Build configuration list for PBXProject "PhreakBox3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C91739D181E8C55002F4279 /* Debug */,
+				3C91739E181E8C55002F4279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C91739F181E8C55002F4279 /* Build configuration list for PBXNativeTarget "PhreakBox3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9173A0181E8C55002F4279 /* Debug */,
+				3C9173A1181E8C55002F4279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C9173A2181E8C55002F4279 /* Build configuration list for PBXNativeTarget "PhreakBox3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9173A3181E8C55002F4279 /* Debug */,
+				3C9173A4181E8C55002F4279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C917362181E8C55002F4279 /* Project object */;
+}
