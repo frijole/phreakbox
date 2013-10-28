@@ -10,4 +10,8 @@
 
 @interface PHBGreenBoxViewController : PHBBoxViewController
 
+- (IBAction)collectButtonPressed:(id)sender;
+- (IBAction)returnButtonPressed:(id)sender;
+- (IBAction)ringbackButtonPressed:(id)sender;
+
 @end

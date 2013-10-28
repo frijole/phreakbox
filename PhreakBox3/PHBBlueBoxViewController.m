@@ -55,4 +55,87 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - Buttons
+
+- (IBAction)oneButtonPressed:(id)sender
+{
+    
+}
+
+- (IBAction)twoButtonPressed:(id)sender
+{
+    
+}
+
+- (IBAction)threeButtonPressed:(id)sender
+{
+    
+}
+
+- (IBAction)fourButtonPressed:(id)sender
+{
+    
+}
+
+- (IBAction)fiveButtonPressed:(id)sender
+{
+    
+}
+
+- (IBAction)sixButtonPressed:(id)sender
+{
+    
+}
+
+- (IBAction)sevenButtonPressed:(id)sender
+{
+    
+}
+
+- (IBAction)eightButtonPressed:(id)sender
+{
+    
+}
+
+- (IBAction)nineButtonPressed:(id)sender
+{
+    
+}
+
+- (IBAction)zeroButtonPressed:(id)sender
+{
+    
+}
+
+- (IBAction)starButtonPressed:(id)sender
+{
+    
+}
+
+- (IBAction)poundButtonPressed:(id)sender
+{
+    
+}
+
+- (IBAction)aButtonPressed:(id)sender
+{
+    
+}
+
+- (IBAction)bButtonPressed:(id)sender
+{
+    
+}
+
+- (IBAction)cButtonPressed:(id)sender
+{
+    
+}
+
+- (IBAction)dButtonPressed:(id)sender
+{
+    
+}
+
+
 @end

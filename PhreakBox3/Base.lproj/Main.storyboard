@@ -37,6 +37,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="cButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="2aX-XU-Ezy"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhd-Hp-Qju">
                                         <rect key="frame" x="168" y="243" width="60" height="60"/>
@@ -55,6 +58,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="poundButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="lPg-KA-tVz"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K0g-X5-ayD">
                                         <rect key="frame" x="93" y="93" width="60" height="60"/>
@@ -73,6 +79,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="fiveButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="hYs-ol-cSm"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zrK-QB-Gh0">
                                         <rect key="frame" x="93" y="18" width="60" height="60"/>
@@ -91,6 +100,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="twoButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="bXi-to-88s"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sgq-Hm-lZo">
                                         <rect key="frame" x="18" y="168" width="60" height="60"/>
@@ -109,6 +121,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="sevenButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="6xy-iD-WjY"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fd0-Xa-1Wc">
                                         <rect key="frame" x="243" y="18" width="60" height="60"/>
@@ -127,6 +142,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="aButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="gCx-QE-1c7"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a6d-Mh-mmS">
                                         <rect key="frame" x="168" y="18" width="60" height="60"/>
@@ -145,6 +163,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="threeButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="UHu-Qn-BMS"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GWZ-Mr-sB5">
                                         <rect key="frame" x="93" y="168" width="60" height="60"/>
@@ -163,6 +184,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="eightButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="59k-Wk-3Eb"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HGs-9A-5ua">
                                         <rect key="frame" x="168" y="93" width="60" height="60"/>
@@ -181,6 +205,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="sixButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="ucl-6E-RPM"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AA2-fC-2gs">
                                         <rect key="frame" x="18" y="18" width="60" height="60"/>
@@ -199,6 +226,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="oneButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="VyS-cb-H0k"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VTk-Lz-5oa">
                                         <rect key="frame" x="93" y="243" width="60" height="60"/>
@@ -217,6 +247,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="zeroButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="wYd-Nl-qs7"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kXl-7z-eqU">
                                         <rect key="frame" x="18" y="93" width="60" height="60"/>
@@ -235,6 +268,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="fourButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="82z-Pz-t7C"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1U-c8-A6g">
                                         <rect key="frame" x="243" y="93" width="60" height="60"/>
@@ -253,6 +289,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="bButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="Bez-6V-jZX"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BCm-Jy-rMH">
                                         <rect key="frame" x="243" y="243" width="60" height="60"/>
@@ -271,6 +310,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="dButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="b7r-FQ-7yK"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lek-7j-ent">
                                         <rect key="frame" x="18" y="243" width="60" height="60"/>
@@ -289,6 +331,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="starButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="Vbo-ii-MFM"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mkc-UB-cJI">
                                         <rect key="frame" x="168" y="168" width="60" height="60"/>
@@ -307,6 +352,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="nineButtonPressed:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="q8m-qj-h2d"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -333,14 +381,14 @@
                             <constraint firstItem="vch-1a-aAd" firstAttribute="leading" secondItem="2VE-Yg-loa" secondAttribute="leading" id="ozM-hX-PM1"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Blue Box" image="first" id="u1e-5L-l1D"/>
+                    <tabBarItem key="tabBarItem" title="Blue Box" image="phoneglobe" id="u1e-5L-l1D"/>
                     <connections>
                         <outlet property="buttonContainer" destination="rg6-1t-sgG" id="7ZP-3H-ecg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qh2-T1-AhA" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="653" y="-161"/>
+            <point key="canvasLocation" x="497" y="-317"/>
         </scene>
         <!--Green Box View Controller - Second-->
         <scene sceneID="ot8-2e-RuS">
@@ -375,6 +423,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="ringbackButtonPressed:" destination="QUy-BD-bpt" eventType="touchUpInside" id="xkJ-Hy-its"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y3O-Ps-drf">
                                         <rect key="frame" x="18" y="58" width="285" height="60"/>
@@ -393,6 +444,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="collectButtonPressed:" destination="QUy-BD-bpt" eventType="touchUpInside" id="xzZ-Ox-enS"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n6E-Gg-124">
                                         <rect key="frame" x="18" y="133" width="285" height="60"/>
@@ -411,6 +465,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="returnButtonPressed:" destination="QUy-BD-bpt" eventType="touchUpInside" id="uoe-44-ftc"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -439,14 +496,14 @@
                             <constraint firstAttribute="centerY" secondItem="3TW-TJ-LUC" secondAttribute="centerY" constant="0.5" id="lrz-kt-xFV"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Green Box" image="second" id="Z7h-1E-pvt"/>
+                    <tabBarItem key="tabBarItem" title="Green Box" image="coins-down" id="Z7h-1E-pvt"/>
                     <connections>
                         <outlet property="buttonContainer" destination="3TW-TJ-LUC" id="4nf-IO-lQt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3qq-4t-Ow8" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="653" y="541"/>
+            <point key="canvasLocation" x="497" y="385"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Vex-rW-GRa">
@@ -460,19 +517,19 @@
                     </tabBar>
                     <connections>
                         <segue destination="CZ4-MO-1fc" kind="relationship" relationship="viewControllers" id="SUk-Ux-ee1"/>
-                        <segue destination="QUy-BD-bpt" kind="relationship" relationship="viewControllers" id="M8t-EP-wfW"/>
                         <segue destination="49F-5o-Hur" kind="relationship" relationship="viewControllers" id="v4T-iE-wsE"/>
+                        <segue destination="QUy-BD-bpt" kind="relationship" relationship="viewControllers" id="M8t-EP-wfW"/>
                         <segue destination="XQo-sA-64V" kind="relationship" relationship="viewControllers" id="HiR-fI-FKN"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FNP-y4-bzi" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="132" y="180"/>
+            <point key="canvasLocation" x="-24" y="24"/>
         </scene>
-        <!--Red Box View Controller - Second-->
+        <!--Silver Box View Controller - Second-->
         <scene sceneID="DAc-HW-H49">
             <objects>
-                <viewController title="Second" id="XQo-sA-64V" customClass="PHBRedBoxViewController" sceneMemberID="viewController">
+                <viewController title="Second" id="XQo-sA-64V" customClass="PHBSilverBoxViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8dd-Zr-1je"/>
                         <viewControllerLayoutGuide type="bottom" id="xhj-z7-LfT"/>
@@ -502,6 +559,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="cButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="Eeb-ao-yue"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZF5-pd-ihX">
                                         <rect key="frame" x="168" y="243" width="60" height="60"/>
@@ -520,6 +580,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="poundButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="BOf-dg-g6Y"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W1V-ih-c0h">
                                         <rect key="frame" x="93" y="93" width="60" height="60"/>
@@ -538,6 +601,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="fiveButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="JwM-vE-i7I"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OqW-av-GsZ">
                                         <rect key="frame" x="93" y="18" width="60" height="60"/>
@@ -556,6 +622,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="twoButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="a8Z-AB-qhx"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgX-5h-UBO">
                                         <rect key="frame" x="18" y="168" width="60" height="60"/>
@@ -574,6 +643,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="sevenButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="kJG-wc-Ai6"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pf4-Vm-zbU">
                                         <rect key="frame" x="243" y="18" width="60" height="60"/>
@@ -592,6 +664,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="aButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="Mu5-IX-e6g"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iph-YS-uDo">
                                         <rect key="frame" x="168" y="18" width="60" height="60"/>
@@ -610,6 +685,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="threeButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="tar-MH-zsc"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pw5-rN-8YO">
                                         <rect key="frame" x="93" y="168" width="60" height="60"/>
@@ -628,6 +706,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="eightButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="PMr-zJ-4KJ"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k7A-dd-DRt">
                                         <rect key="frame" x="168" y="93" width="60" height="60"/>
@@ -646,6 +727,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="sixButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="VgU-5I-mJy"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FZ7-CF-hZx">
                                         <rect key="frame" x="18" y="18" width="60" height="60"/>
@@ -664,6 +748,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="oneButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="n4s-zL-JW8"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CK7-wm-5ky">
                                         <rect key="frame" x="93" y="243" width="60" height="60"/>
@@ -682,6 +769,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="zeroButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="zIz-w9-qOf"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ueq-A4-Lxl">
                                         <rect key="frame" x="18" y="93" width="60" height="60"/>
@@ -700,6 +790,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="fourButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="rTn-ZB-ovm"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tmR-nK-ak5">
                                         <rect key="frame" x="243" y="93" width="60" height="60"/>
@@ -718,6 +811,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="bButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="8Hq-Do-iIv"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o5H-47-U5N">
                                         <rect key="frame" x="243" y="243" width="60" height="60"/>
@@ -736,6 +832,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="dButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="Dzx-MR-8Ub"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="skU-hs-gSX">
                                         <rect key="frame" x="18" y="243" width="60" height="60"/>
@@ -754,6 +853,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="starButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="jyO-dQ-GhZ"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="csb-Jf-Kad">
                                         <rect key="frame" x="168" y="168" width="60" height="60"/>
@@ -772,6 +874,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="nineButtonPressed:" destination="XQo-sA-64V" eventType="touchUpInside" id="skC-jB-708"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -799,14 +904,14 @@
                             <constraint firstAttribute="centerY" secondItem="CCh-Ny-ZE9" secondAttribute="centerY" constant="0.5" id="tnA-vF-Izi"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Silver Box" image="second" id="5qW-RL-EVK"/>
+                    <tabBarItem key="tabBarItem" title="Silver Box" image="phoneboard" id="5qW-RL-EVK"/>
                     <connections>
                         <outlet property="buttonContainer" destination="CCh-Ny-ZE9" id="MNA-WZ-CQd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Di4-xF-QTb" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1062" y="541"/>
+            <point key="canvasLocation" x="906" y="385"/>
         </scene>
         <!--Red Box View Controller - First-->
         <scene sceneID="5in-zy-odu">
@@ -841,6 +946,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="quarterButtonPressed:" destination="49F-5o-Hur" eventType="touchUpInside" id="HTZ-F6-VXW"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qc3-n9-AIL">
                                         <rect key="frame" x="18" y="58" width="285" height="60"/>
@@ -859,6 +967,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="nickelButtonPressed:" destination="49F-5o-Hur" eventType="touchUpInside" id="mlE-8w-FbJ"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wO9-TR-7QQ">
                                         <rect key="frame" x="18" y="133" width="285" height="60"/>
@@ -877,6 +988,9 @@
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="dimeButtonPressed:" destination="49F-5o-Hur" eventType="touchUpInside" id="dIh-mR-6R3"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -904,21 +1018,21 @@
                             <constraint firstItem="a4N-SW-TVH" firstAttribute="top" secondItem="dQW-P3-mPC" secondAttribute="bottom" constant="20" symbolic="YES" id="moe-4K-bBW"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Red Box" image="first" id="pL9-rk-qiI"/>
+                    <tabBarItem key="tabBarItem" title="Red Box" image="coins-up" id="pL9-rk-qiI"/>
                     <connections>
                         <outlet property="buttonContainer" destination="vLd-EA-bHF" id="jrR-o0-Ega"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eha-Nq-hgC" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1062" y="-161"/>
+            <point key="canvasLocation" x="906" y="-317"/>
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
+        <image name="coins-down" width="30" height="30"/>
+        <image name="coins-up" width="30" height="30"/>
+        <image name="phoneboard" width="35" height="30"/>
+        <image name="phoneglobe" width="30" height="30"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

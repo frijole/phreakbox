@@ -26,4 +26,22 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - Buttons
+
+- (IBAction)collectButtonPressed:(id)sender
+{
+    
+}
+
+- (IBAction)returnButtonPressed:(id)sender
+{
+    
+}
+
+- (IBAction)ringbackButtonPressed:(id)sender
+{
+    
+}
+
+
 @end

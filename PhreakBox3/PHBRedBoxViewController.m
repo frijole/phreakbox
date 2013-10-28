@@ -26,4 +26,24 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - Buttons
+
+- (IBAction)nickelButtonPressed:(id)sender
+{
+    
+}
+
+- (IBAction)dimeButtonPressed:(id)sender
+{
+    
+}
+
+- (IBAction)quarterButtonPressed:(id)sender
+{
+    
+}
+
+
+
+
 @end
